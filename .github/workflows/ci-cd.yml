@@ -21,6 +21,8 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean package
+      working-directory: ./  # Define o diretório de trabalho para a raiz do repositório
+
 
     - name: Archive production artifacts
       uses: actions/upload-artifact@v4

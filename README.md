@@ -1,1 +1,1 @@
-SprintgBoot back-end application
+SpringBoot back-end application
